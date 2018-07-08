@@ -1,0 +1,53 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Quicksand', sans-serif;
+}
+html,
+body { height: 100% }
+body {
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+	line-height:25px;
+}
+a:hover { text-decoration: none; }
+
+
+/* =========================
+   Author's custom styles
+============================ */
+
+/*===============
+1. Header Area
+================*/
+.hero-area {background-image: url(../img/hero-bg.jpg);}
+
+.site-header{
+        background-color: #000;
+}
+.logo{
+    margin: 9px 0;
+}
+.mainmenu ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-weight: 700;
+
+
+}
+.mainmenu li{
+    display: inline-block;
+}
+.mainmenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
